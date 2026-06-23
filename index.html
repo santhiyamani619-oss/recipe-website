@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pantry Recipe Finder</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- Splash Screen -->
+
+<div id="splashScreen">
+  <img
+  src="https://dcassetcdn.com/design_img/10150/25224/25224_294121_10150_image.jpg"
+  alt="Banner">
+</div>
+
+<!-- Header -->
+
+<h1>🍳 Pantry Recipe Finder</h1>
+
+<!-- Search -->
+
+<div class="search-box">
+
+<input
+type="text"
+id="searchInput"
+placeholder="Search Recipe...">
+
+<button onclick="searchRecipe()">
+🔍 Search
+</button>
+
+</div>
+
+<!-- Ingredients -->
+
+<div class="ingredients">
+
+<div class="card"
+onclick="selectIngredient(this,'Egg')">
+🥚 Egg
+</div>
+
+<div class="card"
+onclick="selectIngredient(this,'Rice')">
+🍚 Rice
+</div>
+
+<div class="card"
+onclick="selectIngredient(this,'Chicken')">
+🍗 Chicken
+</div>
+
+<div class="card"
+onclick="selectIngredient(this,'Onion')">
+🧈 Butter
+</div>
+
+<div class="card"
+onclick="selectIngredient(this,'Tomato')">
+🍅 Tomato
+</div>
+
+<div class="card"
+onclick="selectIngredient(this,'Milk')">
+🥛 Milk
+</div>
+
+</div>
+
+<!-- Pantry -->
+
+<div class="pantry">
+
+<h2>Selected Pantry</h2>
+
+<div id="selectedItems">
+<p>No ingredients selected</p>
+</div>
+
+<button
+class="find-btn"
+onclick="showRecipes()">
+
+Find Recipes
+
+</button>
+
+</div>
+
+<!-- Recipe Result -->
+
+<div
+id="recipes"
+class="recipes">
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
