@@ -1,57 +1,51 @@
-// Splash Screen
+// Splash Screen + selectIngredient + updatePantry irukkum above
 
-window.onload = function(){
 
-setTimeout(() => {
+function searchRecipe() {
+  let query = document.getElementById("searchInput").value.toLowerCase().trim();
+  let recipesDiv = document.getElementById("recipes");
 
-document.getElementById("splashScreen").style.display = "none";
+  if (query === "") {
+    recipesDiv.innerHTML = "<p>Please type a recipe name 🔍</p>";
+    return;
+  }
 
-},3000);
+  let result = "";
 
-};
+  if (query.includes("egg")) {
+    result += "<p>🍳 Egg Recipes: Omelette, Egg Fried Rice, Boiled Egg Curry</p>";
+  }
 
-let selected = [];
+  if (query.includes("chicken")) {
+    result += "<p>🍗 Chicken Recipes: Chicken Curry, Chicken Fry, Chicken Biryani</p>";
+  }
 
-// Select Ingredient
+  if (query.includes("mutton")) {
+    result += "<p>🐐 Mutton Recipes: Mutton Curry, Mutton Biryani, Mutton Soup</p>";
+  }
 
-function selectIngredient(card,name){
+  if (query.includes("fish")) {
+    result += "<p>🐟 Fish Recipes: Fish Fry, Fish Curry, Grilled Fish</p>";
+  }
 
-card.classList.toggle("selected");
+  if (query.includes("rice")) {
+    result += "<p>🍚 Rice Recipes: Lemon Rice, Tomato Rice, Curd Rice</p>";
+  }
 
-if(selected.includes(name)){
-selected = selected.filter(item => item !== name);
+  if (query.includes("milk")) {
+    result += "<p>🥛 Milk Recipes: Milkshake, Badam Milk, Rose Milk</p>";
+  }
+
+  if (query.includes("snack") || query.includes("chips") || query.includes("bajji")) {
+    result += "<p>🍿 Snacks: Sandwich, Chips, Pakoda, Bajji</p>";
+  }
+
+  if (result === "") {
+    result = "<p>❌ No recipes found. Try Egg, Chicken, Mutton, Fish, Rice</p>";
+  }
+
+  recipesDiv.innerHTML = result;
 }
-else{
-selected.push(name);
-}
-
-updatePantry();
-}
-
-// Update Pantry
-
-function updatePantry(){
-
-let html = "";
-
-if(selected.length === 0){
-
-html = "<p>No ingredients selected</p>";
-
-}
-else{
-
-selected.forEach(item => {
-
-html += `<span class="tag">${item}</span>`;
-
-});
-
-}
-
-document.getElementById("selectedItems").innerHTML = html;
-}
-
 // Recipe Database
 
 const recipes = {
