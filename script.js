@@ -1423,36 +1423,106 @@ steps: [
 
 // Show Recipes
 
+function showRecipes(){
 
+let recipeContainer =
+document.getElementById("recipes");
 
-function searchRecipe(){
+if(selected.length === 0){
 
-let input = document.getElementById("searchInput");
-if(!input) return;
+recipeContainer.innerHTML =
+"<h3>Please select ingredients first.</h3>";
 
-let search = input.value.toLowerCase().trim();
+return;
+}
 
 let html = "";
 
-if(search === ""){
-  showRecipes();
-  return;
+selected.forEach(ingredient => {
+
+if(recipes[ingredient]){
+
+recipes[ingredient].forEach(recipe => {
+
+html += `
+
+<div class="recipe-card"
+onclick="showRecipeDetail('${recipe.name}')">
+
+<img src="${recipe.image}"
+alt="${recipe.name}">
+
+<div class="recipe-info">
+
+<h3>${recipe.name}</h3>
+
+<p class="match">
+${ingredient} Recipe
+</p>
+
+<p>
+Cooking Time:
+${recipe.time}
+</p>
+
+
+
+
+</div>
+
+</div>
+
+`;
+
+});
+
 }
+
+});
+
+recipeContainer.innerHTML = html;
+}
+
+// Search Recipe
+
+function searchRecipe(){
+
+let search =
+document.getElementById("searchInput")
+.value.toLowerCase();
+
+let html = "";
 
 Object.values(recipes).forEach(recipeArray => {
 
 recipeArray.forEach(recipe => {
 
-if(recipe.name.toLowerCase().includes(search)){
+if(
+recipe.name.toLowerCase()
+.includes(search)
+){
 
 html += `
-<div class="recipe-card" onclick="showRecipeDetail('${recipe.name}')">
-<img src="${recipe.image}">
+
+<div class="recipe-card"
+onclick="showRecipeDetail('${recipe.name}')">
+
+<img src="${recipe.image}"
+alt="${recipe.name}">
+
 <div class="recipe-info">
+
 <h3>${recipe.name}</h3>
-<p>Cooking Time: ${recipe.time}</p>
+
+<p>
+Cooking Time:
+${recipe.time}
+</p>
+
 </div>
+
 </div>
+
 `;
 
 }
@@ -1461,8 +1531,14 @@ html += `
 
 });
 
-document.getElementById("recipes").innerHTML =
-html || "<h2>No Recipe Found 😔</h2>";
+if(html === ""){
+
+html = "<h2>No Recipe Found 😔</h2>";
+
+}
+
+document.getElementById("recipes")
+.innerHTML = html;
 
 }
 
