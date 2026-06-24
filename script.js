@@ -1,80 +1,55 @@
 // Splash Screen
-window.onload = function () {
-  setTimeout(() => {
-    document.getElementById("splashScreen").style.display = "none";
-  }, 3000);
+
+window.onload = function(){
+
+setTimeout(() => {
+
+document.getElementById("splashScreen").style.display = "none";
+
+},3000);
+
 };
 
 let selected = [];
 
 // Select Ingredient
-function selectIngredient(card, name) {
-  card.classList.toggle("selected");
 
-  if (selected.includes(name)) {
-    selected = selected.filter(item => item !== name);
-  } else {
-    selected.push(name);
-  }
+function selectIngredient(card,name){
 
-  updatePantry();
+card.classList.toggle("selected");
+
+if(selected.includes(name)){
+selected = selected.filter(item => item !== name);
+}
+else{
+selected.push(name);
+}
+
+updatePantry();
 }
 
 // Update Pantry
-function updatePantry() {
-  let html = "";
 
-  if (selected.length === 0) {
-    html = "<p>No ingredients selected</p>";
-  } else {
-    selected.forEach(item => {
-      html += `<span class="tag">${item}</span>`;
-    });
-  }
+function updatePantry(){
 
-  document.getElementById("selectedItems").innerHTML = html;
+let html = "";
+
+if(selected.length === 0){
+
+html = "<p>No ingredients selected</p>";
+
+}
+else{
+
+selected.forEach(item => {
+
+html += `<span class="tag">${item}</span>`;
+
+});
+
 }
 
-// Search button (optional basic)
-function searchRecipe() {
-  let query = document.getElementById("searchInput").value;
-
-  alert("Searching for: " + query);
-}
-
-// Show recipes based on selected items
-function showRecipes() {
-  let recipesDiv = document.getElementById("recipes");
-
-  if (selected.length === 0) {
-    recipesDiv.innerHTML = "<p>Please select ingredients first</p>";
-    return;
-  }
-
-  let html = "<h2>Suggested Recipes 🍽️</h2>";
-
-  if (selected.includes("Egg")) {
-    html += "<p>🍳 Egg Omelette, Egg Fried Rice</p>";
-  }
-
-  if (selected.includes("Chicken")) {
-    html += "<p>🍗 Chicken Curry, Chicken Fry</p>";
-  }
-
-  if (selected.includes("Rice")) {
-    html += "<p>🍚 Lemon Rice, Tomato Rice</p>";
-  }
-
-  if (selected.includes("Milk")) {
-    html += "<p>🥛 Milkshake, Payasam</p>";
-  }
-
-  // 🆕 Snacks category add panniruken
-  if (selected.includes("Snacks")) {
-    html += "<p>🍿 Popcorn, Sandwich, Pakoda, Chips</p>";
-  }
-
-  recipesDiv.innerHTML = html;
+document.getElementById("selectedItems").innerHTML = html;
 }
 
 // Recipe Database
