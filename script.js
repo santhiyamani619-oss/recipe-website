@@ -1,51 +1,57 @@
-// Splash Screen + selectIngredient + updatePantry irukkum above
+// Splash Screen
 
+window.onload = function(){
 
-function searchRecipe() {
-  let query = document.getElementById("searchInput").value.toLowerCase().trim();
-  let recipesDiv = document.getElementById("recipes");
+setTimeout(() => {
 
-  if (query === "") {
-    recipesDiv.innerHTML = "<p>Please type a recipe name 🔍</p>";
-    return;
-  }
+document.getElementById("splashScreen").style.display = "none";
 
-  let result = "";
+},3000);
 
-  if (query.includes("egg")) {
-    result += "<p>🍳 Egg Recipes: Omelette, Egg Fried Rice, Boiled Egg Curry</p>";
-  }
+};
 
-  if (query.includes("chicken")) {
-    result += "<p>🍗 Chicken Recipes: Chicken Curry, Chicken Fry, Chicken Biryani</p>";
-  }
+let selected = [];
 
-  if (query.includes("mutton")) {
-    result += "<p>🐐 Mutton Recipes: Mutton Curry, Mutton Biryani, Mutton Soup</p>";
-  }
+// Select Ingredient
 
-  if (query.includes("fish")) {
-    result += "<p>🐟 Fish Recipes: Fish Fry, Fish Curry, Grilled Fish</p>";
-  }
+function selectIngredient(card,name){
 
-  if (query.includes("rice")) {
-    result += "<p>🍚 Rice Recipes: Lemon Rice, Tomato Rice, Curd Rice</p>";
-  }
+card.classList.toggle("selected");
 
-  if (query.includes("milk")) {
-    result += "<p>🥛 Milk Recipes: Milkshake, Badam Milk, Rose Milk</p>";
-  }
-
-  if (query.includes("snack") || query.includes("chips") || query.includes("bajji")) {
-    result += "<p>🍿 Snacks: Sandwich, Chips, Pakoda, Bajji</p>";
-  }
-
-  if (result === "") {
-    result = "<p>❌ No recipes found. Try Egg, Chicken, Mutton, Fish, Rice</p>";
-  }
-
-  recipesDiv.innerHTML = result;
+if(selected.includes(name)){
+selected = selected.filter(item => item !== name);
 }
+else{
+selected.push(name);
+}
+
+updatePantry();
+}
+
+// Update Pantry
+
+function updatePantry(){
+
+let html = "";
+
+if(selected.length === 0){
+
+html = "<p>No ingredients selected</p>";
+
+}
+else{
+
+selected.forEach(item => {
+
+html += `<span class="tag">${item}</span>`;
+
+});
+
+}
+
+document.getElementById("selectedItems").innerHTML = html;
+}
+
 // Recipe Database
 
 const recipes = {
@@ -1235,10 +1241,10 @@ instructions: [
 
 Mutton:[
 {
-  Name: "Mutton Gravy",
+  name: "Mutton Gravy",
   image:"https://theartisticcook.com/wp-content/uploads/2024/01/mutton-curry-bihari-500x500.jpg",
-  Time: "45-50 mins",
-  "ingredients": [
+  time: "45-50 mins",
+  ingredients: [
     "500 g Mutton",
     "2 Onions (chopped)",
     "2 Tomatoes (chopped)",
@@ -1253,7 +1259,7 @@ Mutton:[
     "2 cups Water",
     "Coriander Leaves for garnish"
   ],
-  "steps": [
+  steps: [
     "Heat oil in a pressure cooker.",
     "Add curry leaves and chopped onions.",
     "Saute until golden brown.",
@@ -1271,10 +1277,10 @@ Mutton:[
   ]
 },
 {
-  Name: "Mutton Biryani",
+  name: "Mutton Biryani",
   image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuH4cM647s17daFRqNjnWb4gzAn6-252Gvrr7diMISYTPkeG4rLzQPw5c6&s=10",
-  Time: "60-90 mins",
-  "ingredients": [
+  time: "60-90 mins",
+  ingredients: [
     "500 g Mutton",
     "2 cups Basmati Rice",
     "3 Onions (sliced)",
@@ -1292,7 +1298,7 @@ Mutton:[
     "4 cups Water",
     "1 Lemon juice"
   ],
-  "steps": [
+  steps: [
     "Wash and soak basmati rice for 20-30 minutes.",
     "Heat oil or ghee in a pressure cooker or heavy pot.",
     "Add sliced onions and fry until golden brown.",
@@ -1311,10 +1317,10 @@ Mutton:[
 },
 
 {
-  Name: "Mutton Soup",
+  name: "Mutton Soup",
   image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRyDz7tmLYERTU1GscBiQLNSNVJkyTDYNOxctBfVVeArFJ4JWo7yWm-CgSx&s=10",
-  Time: "60-75 mins",
-  "ingredients": [
+  time: "60-75 mins",
+  ingredients: [
     "300 g Mutton (with bones)",
     "1 Onion (chopped)",
     "1 Tomato (chopped)",
@@ -1328,7 +1334,7 @@ Mutton:[
     "5 cups Water",
     "Coriander Leaves for garnish"
   ],
-  "steps": [
+  steps: [
     "Heat oil in a pressure cooker.",
     "Add cumin seeds and curry leaves.",
     "Add chopped onions and sauté until soft.",
@@ -1347,10 +1353,10 @@ Mutton:[
 ],
 Fish:[
     {
-  Name: "Fish Gravy ",
+  name: "Fish Gravy ",
   image:"https://vismaifood.com/storage/app/uploads/public/daa/96d/7bc/thumb__1200_0_0_0_auto.jpg",
-  Time: "30-35 mins",
-  "ingredients": [
+  time: "30-35 mins",
+  ingredients: [
     "500 g Fish",
     "2 Onions (sliced)",
     "2 Tomatoes (chopped)",
@@ -1365,7 +1371,7 @@ Fish:[
     "1.5 cups Water",
     "Coriander Leaves for garnish"
   ],
-  "steps": [
+  steps: [
     "Clean the fish and marinate with turmeric and salt for 10 minutes.",
     "Heat oil in a pan.",
     "Add curry leaves and sliced onions.",
@@ -1417,106 +1423,36 @@ steps: [
 
 // Show Recipes
 
-function showRecipes(){
 
-let recipeContainer =
-document.getElementById("recipes");
-
-if(selected.length === 0){
-
-recipeContainer.innerHTML =
-"<h3>Please select ingredients first.</h3>";
-
-return;
-}
-
-let html = "";
-
-selected.forEach(ingredient => {
-
-if(recipes[ingredient]){
-
-recipes[ingredient].forEach(recipe => {
-
-html += `
-
-<div class="recipe-card"
-onclick="showRecipeDetail('${recipe.name}')">
-
-<img src="${recipe.image}"
-alt="${recipe.name}">
-
-<div class="recipe-info">
-
-<h3>${recipe.name}</h3>
-
-<p class="match">
-${ingredient} Recipe
-</p>
-
-<p>
-Cooking Time:
-${recipe.time}
-</p>
-
-
-
-
-</div>
-
-</div>
-
-`;
-
-});
-
-}
-
-});
-
-recipeContainer.innerHTML = html;
-}
-
-// Search Recipe
 
 function searchRecipe(){
 
-let search =
-document.getElementById("searchInput")
-.value.toLowerCase();
+let input = document.getElementById("searchInput");
+if(!input) return;
+
+let search = input.value.toLowerCase().trim();
 
 let html = "";
+
+if(search === ""){
+  showRecipes();
+  return;
+}
 
 Object.values(recipes).forEach(recipeArray => {
 
 recipeArray.forEach(recipe => {
 
-if(
-recipe.name.toLowerCase()
-.includes(search)
-){
+if(recipe.name.toLowerCase().includes(search)){
 
 html += `
-
-<div class="recipe-card"
-onclick="showRecipeDetail('${recipe.name}')">
-
-<img src="${recipe.image}"
-alt="${recipe.name}">
-
+<div class="recipe-card" onclick="showRecipeDetail('${recipe.name}')">
+<img src="${recipe.image}">
 <div class="recipe-info">
-
 <h3>${recipe.name}</h3>
-
-<p>
-Cooking Time:
-${recipe.time}
-</p>
-
+<p>Cooking Time: ${recipe.time}</p>
 </div>
-
 </div>
-
 `;
 
 }
@@ -1525,14 +1461,8 @@ ${recipe.time}
 
 });
 
-if(html === ""){
-
-html = "<h2>No Recipe Found 😔</h2>";
-
-}
-
-document.getElementById("recipes")
-.innerHTML = html;
+document.getElementById("recipes").innerHTML =
+html || "<h2>No Recipe Found 😔</h2>";
 
 }
 
