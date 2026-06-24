@@ -288,7 +288,7 @@ Chicken:[
 
 {
 name:"Chicken Gravy",
-image:"https://images.unsplash.com/photo-1603133872878-684f208fb84b?w=600",
+image:"https://www.sharmispassions.com/wp-content/uploads/2022/06/ChickenGravy1.jpg",
 time:"35 mins",
 ingredients:[
 "500 g chicken",
@@ -765,7 +765,659 @@ steps:[
 }
 
 
+],
+
+Tomato :[
+{
+name:"Tomato Rice",
+image:"https://www.dillandthyme.com/wp-content/uploads/2025/02/Tomato-Rice-2.jpg",
+time:"25 mins",
+ingredients:[
+"2 cups cooked rice",
+"3 tomatoes, finely choppe",
+"1 onion, sliced",
+"2 green chilies, slit",
+"1 tsp ginger-garlic paste",
+"½ tsp turmeric powder",
+"1 tsp red chili powder",
+"½ tsp garam masala",
+"1 tsp mustard seeds",
+"1 tsp cumin seeds",
+"Curry leaves",
+"2 tbsp oil",
+"Salt to taste",
+"Coriander leaves for garnish",
+],
+
+steps:[
+"Heat oil in a pan",
+"Add mustard seeds, cumin seeds, and curry leaves",
+"Add onions and green chilies. Sauté until golden",
+"Add ginger-garlic paste and cook for 1 minute",
+"Add chopped tomatoes and cook until soft and mushy",
+"Add turmeric powder, chili powder, garam masala, and salt",
+"Cook until the masala thickens",
+"Add cooked rice and mix gently",
+"Cook for 2–3 minutes",
+"Garnish with coriander leaves and serve hot"
 ]
+},
+
+{
+name:"Tomato Soup",
+image:"https://italianfoodforever.com/wp-content/uploads/2019/01/tomatosouptop-480x480.jpg",
+time:"30 mins",
+ingredients:[
+"4 ripe tomatoes, chopped",
+"1 small onion, chopped",
+"2 garlic cloves, chopped",
+"2 cups water",
+"1 tbsp butter",
+"½ tsp pepper powder",
+"Salt to taste",
+"Coriander leaves (for garnish)"
+],
+
+steps:[
+"4 ripe tomatoes, chopped",
+"1 small onion, chopped",
+"2 garlic cloves, chopped",
+"2 cups water",
+"1 tbsp butter",
+"½ tsp pepper powder",
+"Salt to taste",
+"Coriander leaves (for garnish)"
+]
+},
+
+{
+name:"Tomato Chutney",
+image:"https://someindiangirl.com/wp-content/uploads/2021/06/Spicy-Garlic-Tomato-Chutney-Recipe-7-of-7-2-scaled.jpg",
+time:"25 mins",
+ingredients:[
+"4 ripe tomatoes, chopped",
+"1 onion, chopped",
+"3 dried red chilies",
+"2 garlic cloves",
+"1 tbsp oil",
+"Salt to taste",
+"For Tempering",
+"1 tsp mustard seeds",
+"1 tsp urad dal",
+"A few curry leaves",
+"1 tsp oil"
+],
+
+steps:[
+"Heat 1 tbsp oil in a pan",
+"Add red chilies and garlic. Sauté for 1 minute",
+"Add onion and cook until soft",
+"Add chopped tomatoes and salt",
+"Cook until the tomatoes become soft and the water evaporates",
+"Let the mixture cool completely",
+"Grind it into a smooth chutney",
+"Heat 1 tsp oil in a small pan",
+"Add mustard seeds, urad dal, and curry leaves",
+"Pour this tempering over the chutney",
+"Best Served With"
+]
+},
+
+{
+name:"Tomato Pasta",
+image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1BWuT0FOJGhnN64Bdll83h08qDCzpnzLsB0gK0WMBG-LRbguRbT-m81sB&s=10",
+time:"30 mins",
+ingredients:[
+"200 g pasta",
+"3 ripe tomatoes, chopped",
+"1 onion, finely chopped",
+"2 garlic cloves, minced",
+"1 tbsp olive oil or regular oil",
+"1 tsp chili flakes (optional)",
+"½ tsp mixed herbs or oregano",
+"Salt to taste",
+"Grated cheese (optional)"
+],
+
+steps:[
+"Boil the pasta according to the package instructions. Drain and keep aside",
+"Heat oil in a pan",
+"Add garlic and onion. Sauté until soft",
+"Add chopped tomatoes and cook for 8–10 minutes until mushy",
+"Add salt, chili flakes, and mixed herbs",
+"Cook until a thick tomato sauce forms",
+"Add the cooked pasta and toss well",
+"Cook for 2 minutes so the pasta absorbs the sauce",
+"Sprinkle grated cheese on top (optional) and serve hot"
+]
+},
+
+{
+name:"Tomato Curry",
+image:"https://vegancocotte.com/wp-content/uploads/2024/02/Tomato-Curry-1.jpg",
+time:"30 mins",
+ingredients:[
+"4 ripe tomatoes, chopped",
+"1 onion, finely chopped",
+"2 green chilies, slit",
+"1 tsp ginger-garlic paste",
+"½ tsp turmeric powder",
+"1 tsp red chili powder",
+"1 tsp coriander powder",
+"½ tsp garam masala",
+"2 tbsp oil",
+"1 tsp mustard seeds",
+"Curry leaves",
+"Salt to taste",
+"1 cup water",
+"Coriander leaves for garnish",
+],
+
+steps:[
+"Heat oil in a pan",
+"Add mustard seeds and curry leaves",
+"Add onions and green chilies. Sauté until golden brown",
+"Add ginger-garlic paste and cook for 1 minute",
+"Add chopped tomatoes and cook until soft and mushy",
+"Add turmeric powder, chili powder, coriander powder, garam masala, and salt",
+"Mix well and cook for 2–3 minutes",
+"Add water and simmer for 10 minutes",
+"Garnish with coriander leaves and serve hot",
+]
+},
+
+{
+name:"Butter Corn",
+image:"https://www.courtneyssweets.com/wp-content/uploads/2025/11/buttered-corn-7.jpg",
+time:"5 mins",
+ingredients: [
+  "3 ripe tomatoes, chopped",
+  "2 cups water",
+  "1 tsp tamarind paste",
+  "1 tsp rasam powder",
+  "2 garlic cloves, crushed",
+  "¼ tsp turmeric powder",
+  "Salt to taste",
+  "2 tbsp coriander leaves"
+],
+
+steps: [
+  "Crush or blend the tomatoes lightly.",
+  "Add tomatoes, tamarind paste, water, turmeric powder, rasam powder, garlic, and salt to a pot.",
+  "Mix well and bring to a boil.",
+  "Reduce the heat and simmer for 10 minutes.",
+  "Do not overboil after the rasam starts frothing.",
+  "Garnish with coriander leaves.",
+  "Serve hot with rice or as a soup."
+]
+},
+
+{
+name:"Tomato Sandwich",
+image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-EAi_-YT8k9aFbTTD5k73DPbAYT0EjniGK3i39LqLyyAQ49FdK6foHsE&s=10",
+time:"10 mins",
+ingredients: [
+  "4 bread slices",
+  "1 tomato, thinly sliced",
+  "1 tbsp butter",
+  "1 tbsp mayonnaise (optional)",
+  "Salt to taste",
+  "Pepper powder to taste"
+],
+
+steps: [
+  "Spread butter on the bread slices.",
+  "Apply mayonnaise if using.",
+  "Arrange the tomato slices on two bread slices.",
+  "Sprinkle salt and pepper powder.",
+  "Cover with the remaining bread slices.",
+  "Cut into halves and serve.",
+  "Toast the sandwich if desired."
+]
+},
+
+{
+name:"Tomato Omelette",
+image:"https://www.lizshealthytable.com/wp-content/uploads/2017/08/slow-roasted-tomato-omelet-e1501695714399.jpg",
+time:"15 mins",
+ingredients: [
+  "2 tomatoes, finely chopped",
+  "2 eggs",
+  "1 small onion, finely chopped",
+  "1 green chili, finely chopped",
+  "2 tbsp coriander leaves",
+  "Salt to taste",
+  "1 tbsp oil"
+],
+steps: [
+  "Beat the eggs in a bowl.",
+  "Add tomatoes, onion, green chili, coriander leaves, and salt.",
+  "Mix everything well.",
+  "Heat oil in a pan.",
+  "Pour the egg mixture into the pan.",
+  "Cook on medium flame for 2–3 minutes.",
+  "Flip and cook the other side until done.",
+  "Serve hot."
+]
+},
+
+],
+
+Milk:[
+{
+name:"Chocolate Milkshake",
+image:"https://cookilicious.com/wp-content/uploads/2025/01/Brownie-Milkshake-Recipe-20-scaled.jpg",
+time:"5 mins",
+ingredients: [
+  "2 cups milk",
+  "2 tbsp cocoa powder",
+  "2 tbsp sugar",
+  "3 ice cubes",
+  "1 scoop chocolate ice cream (optional)"
+],
+steps: [
+  "Add milk, cocoa powder, sugar, and ice cubes to a blender.",
+  "Blend until smooth and frothy.",
+  "Add chocolate ice cream if using.",
+  "Blend again for a few seconds.",
+  "Pour into a glass.",
+  "Serve chilled."
+]
+},
+
+{
+name:"Mango Milkshake",
+image:"https://ikneadtoeat.com/wp-content/uploads/2021/07/mango-milkshake-photos-2.jpg",
+time:"5 mins",
+ingredients: [
+  "1 ripe mango, chopped",
+  "2 cups chilled milk",
+  "2 tbsp sugar",
+  "3 ice cubes",
+  "1 scoop vanilla ice cream (optional)"
+],
+steps: [
+  "Add mango pieces, milk, sugar, and ice cubes to a blender.",
+  "Blend until smooth and creamy.",
+  "Add vanilla ice cream if using.",
+  "Blend again for a few seconds.",
+  "Pour into a glass.",
+  "Serve chilled."
+]
+},
+
+{
+name:"Vanilla Milkshake",
+image:"https://iambaker.net/wp-content/uploads/2024/06/Vanilla-milkshake-2.jpg",
+time:"5 mins",
+ingredients: [
+  "2 cups chilled milk",
+  "2 scoops vanilla ice cream",
+  "2 tbsp sugar",
+  "1 tsp vanilla essence",
+  "3 ice cubes"
+],
+steps: [
+  "Add milk, vanilla ice cream, sugar, vanilla essence, and ice cubes to a blender.",
+  "Blend until smooth and creamy.",
+  "Pour into a glass.",
+  "Serve chilled."
+]
+},
+
+{
+name:"Badam milk",
+image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqKwdt9L1R2w_44f4kdaa7gYwLo6S3oulzyH4wclnESxI2d1momIMHNtA&s=10",
+time:"5 mins",
+ingredients: [
+  "2 cups milk",
+  "10 almonds (badam), soaked and peeled",
+  "2 tbsp sugar",
+  "2 cardamom pods",
+  "A few saffron strands (optional)",
+  "Chopped almonds for garnish"
+],
+steps: [
+  "Grind the soaked almonds and cardamom into a smooth paste.",
+  "Heat the milk in a saucepan.",
+  "Add the almond paste and sugar.",
+  "Stir well and simmer for 5–7 minutes.",
+  "Add saffron strands if using.",
+  "Pour into glasses.",
+  "Garnish with chopped almonds and serve hot or chilled."
+]
+},
+
+{
+name:"Rose Milk",
+image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHjsoDaFW7R-g2BcklbhZ4yGfA0UPGyXKa1wMR8YqIGGfo2PYmqIMI8AE&s=10",
+time:"5 mins",
+ingredients: [
+  "2 cups chilled milk",
+  "2 tbsp rose syrup",
+  "2 tbsp sugar (optional)",
+  "3 ice cubes",
+  "Rose petals for garnish (optional)"
+],
+steps: [
+  "2 cups chilled milk",
+  "2 tbsp rose syrup",
+  "2 tbsp sugar (optional)",
+  "3 ice cubes",
+  "Rose petals for garnish (optional)"
+]
+},
+
+{
+name:"Rose Milk Cake",
+image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTv16F4qthi-PQCga9Tt59uRdGBDqA5KL84wlRS2MNPmhSikGqG_r67eMRv&s=10",
+time:"40 mins",
+ingredients: [
+  "1 cup all-purpose flour (maida)",
+  "1/2 cup sugar",
+  "1 tsp baking powder",
+  "1/4 cup butter",
+  "1/2 cup milk",
+  "2 tbsp rose syrup",
+  "1 tsp rose essence (optional)",
+  "Rose petals for garnish (optional)"
+],
+steps: [
+  "Preheat the oven to 180°C.",
+  "Mix flour and baking powder in a bowl.",
+  "In another bowl, whisk butter and sugar until creamy.",
+  "Add milk, rose syrup, and rose essence.",
+  "Gradually add the flour mixture and mix into a smooth batter.",
+  "Pour the batter into a greased cake tin.",
+  "Bake for 25–30 minutes or until a toothpick comes out clean.",
+  "Allow the cake to cool completely.",
+  "Garnish with rose petals and serve."
+]
+},
+
+{
+name:"Milk Pudding",
+image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkgz9o7fGVfKNKkZZr4MeGXrJsSGHDvZ7timSl0lQyEo_qfiR060LqyfsG&s=10",
+time:"2 hours",
+ingredients: [
+  "2 cups milk",
+  "3 tbsp sugar",
+  "2 tbsp corn flour",
+  "1 tsp vanilla essence",
+  "Chopped nuts for garnish (optional)"
+],
+steps: [
+  "Mix corn flour with 2 tbsp milk to make a smooth paste.",
+  "Heat the remaining milk in a pan.",
+  "Add sugar and stir until dissolved.",
+  "Add the corn flour mixture and stir continuously.",
+  "Cook until the mixture thickens.",
+  "Add vanilla essence and mix well.",
+  "Pour into serving bowls.",
+  "Let it cool and refrigerate for 2 hours.",
+  "Garnish with chopped nuts and serve chilled."
+]
+},
+
+{
+name:"Milk Cake",
+image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbyuKVzUeeq6VI8vRDKmmGa3nbcaYR0HcuuFH0xsxBe5qwvnMiRFL90tg&s=10",
+time:"30 mins",
+ingredients: [
+  "2 cups milk powder",
+  "1/2 cup milk",
+  "1/4 cup ghee",
+  "1/2 cup powdered sugar",
+  "1/2 tsp cardamom powder",
+  "Chopped nuts for garnish"
+],
+steps: [
+  "Heat ghee in a pan on low flame.",
+  "Add milk and milk powder.",
+  "Mix continuously until smooth.",
+  "Add powdered sugar and cardamom powder.",
+  "Cook until the mixture thickens and leaves the sides of the pan.",
+  "Transfer to a greased tray.",
+  "Spread evenly and garnish with chopped nuts.",
+  "Allow it to cool completely.",
+  "Cut into squares and serve."
+]
+},
+
+{
+name:"Pistachio Milk Cake",
+image:"https://bakewithshivesh.com/wp-content/uploads/2024/10/IMG_0829.jpg",
+time:"40 mins",
+ingredients: [
+  "1 cup all-purpose flour (maida)",
+  "1/2 cup powdered pistachios",
+  "1/2 cup sugar",
+  "1 tsp baking powder",
+  "1/4 cup butter",
+  "1/2 cup milk",
+  "1/2 tsp cardamom powder",
+  "Chopped pistachios for garnish"
+],
+instructions: [
+  "Preheat the oven to 180°C.",
+  "Mix flour, powdered pistachios, baking powder, and cardamom powder in a bowl.",
+  "In another bowl, whisk butter and sugar until creamy.",
+  "Add milk and mix well.",
+  "Gradually add the dry ingredients and mix into a smooth batter.",
+  "Pour the batter into a greased cake tin.",
+  "Bake for 25–30 minutes or until a toothpick comes out clean.",
+  "Allow the cake to cool completely.",
+  "Garnish with chopped pistachios and serve."
+]
+
+}
+],
+
+Snack:[
+    {
+name:"Easy Potato Snack",
+image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0g-SYpMzwDu_HNY5-qVXug7J5cCarkcNIcsd2Lpzc9Icv4gcdgJRZrug&s=10",
+time:"20 mins",
+ingredients: [
+  "2 potatoes (boiled and mashed)",
+  "1 onion (finely chopped)",
+  "1 green chili (chopped)",
+  "2 tbsp coriander leaves",
+  "1/2 tsp chili powder",
+  "Salt to taste",
+  "2 tbsp corn flour",
+  "Oil for frying"
+],
+instructions: [
+  "Mix mashed potatoes, onion, green chili, coriander leaves, chili powder, salt, and corn flour.",
+  "Make small balls or shapes.",
+  "Heat oil in a pan.",
+  "Fry the snacks until golden and crispy.",
+  "Remove and drain excess oil.",
+  "Serve hot with sauce."
+]
+},
+],
+
+Mutton:[
+{
+  Name: "Mutton Gravy",
+  image:"https://theartisticcook.com/wp-content/uploads/2024/01/mutton-curry-bihari-500x500.jpg",
+  Time: "45-50 mins",
+  "ingredients": [
+    "500 g Mutton",
+    "2 Onions (chopped)",
+    "2 Tomatoes (chopped)",
+    "2 tbsp Ginger Garlic Paste",
+    "1/2 tsp Turmeric Powder",
+    "1 tbsp Chilli Powder",
+    "2 tbsp Coriander Powder",
+    "1 tsp Garam Masala",
+    "Few Curry Leaves",
+    "3 tbsp Oil",
+    "Salt as needed",
+    "2 cups Water",
+    "Coriander Leaves for garnish"
+  ],
+  "steps": [
+    "Heat oil in a pressure cooker.",
+    "Add curry leaves and chopped onions.",
+    "Saute until golden brown.",
+    "Add ginger garlic paste and cook for 1 minute.",
+    "Add tomatoes and cook until soft.",
+    "Add turmeric powder, chilli powder, coriander powder, garam masala, and salt.",
+    "Mix well and cook for 2 minutes.",
+    "Add cleaned mutton and stir well.",
+    "Pour 2 cups water and mix.",
+    "Close the cooker and pressure cook for 6-8 whistles.",
+    "Allow pressure to release naturally.",
+    "Open the cooker and simmer for 5 minutes.",
+    "Garnish with coriander leaves.",
+    "Serve hot."
+  ]
+},
+{
+  Name: "Mutton Biryani",
+  image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuH4cM647s17daFRqNjnWb4gzAn6-252Gvrr7diMISYTPkeG4rLzQPw5c6&s=10",
+  Time: "60-90 mins",
+  "ingredients": [
+    "500 g Mutton",
+    "2 cups Basmati Rice",
+    "3 Onions (sliced)",
+    "2 Tomatoes (chopped)",
+    "2 tbsp Ginger Garlic Paste",
+    "1 cup Curd (yogurt)",
+    "1 tsp Turmeric Powder",
+    "2 tbsp Chilli Powder",
+    "2 tbsp Biryani Masala",
+    "1 tsp Garam Masala",
+    "Few Mint Leaves",
+    "Few Coriander Leaves",
+    "4 tbsp Oil or Ghee",
+    "Salt as needed",
+    "4 cups Water",
+    "1 Lemon juice"
+  ],
+  "steps": [
+    "Wash and soak basmati rice for 20-30 minutes.",
+    "Heat oil or ghee in a pressure cooker or heavy pot.",
+    "Add sliced onions and fry until golden brown.",
+    "Add ginger garlic paste and sauté until raw smell goes.",
+    "Add tomatoes and cook until soft.",
+    "Add turmeric powder, chilli powder, biryani masala, garam masala, and salt.",
+    "Add mutton and mix well.",
+    "Add curd and cook until mutton is partially tender.",
+    "Add mint and coriander leaves.",
+    "Add water and cook mutton until 70% done.",
+    "Add soaked rice and lemon juice.",
+    "Cook covered until rice is fully cooked and water is absorbed.",
+    "Rest for 10 minutes before serving.",
+    "Serve hot with raita or gravy."
+  ]
+},
+
+{
+  Name: "Mutton Soup",
+  image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRyDz7tmLYERTU1GscBiQLNSNVJkyTDYNOxctBfVVeArFJ4JWo7yWm-CgSx&s=10",
+  Time: "60-75 mins",
+  "ingredients": [
+    "300 g Mutton (with bones)",
+    "1 Onion (chopped)",
+    "1 Tomato (chopped)",
+    "1 tbsp Ginger Garlic Paste",
+    "1/2 tsp Turmeric Powder",
+    "1 tbsp Pepper Powder",
+    "1 tsp Cumin Seeds",
+    "Few Curry Leaves",
+    "2 tbsp Oil",
+    "Salt as needed",
+    "5 cups Water",
+    "Coriander Leaves for garnish"
+  ],
+  "steps": [
+    "Heat oil in a pressure cooker.",
+    "Add cumin seeds and curry leaves.",
+    "Add chopped onions and sauté until soft.",
+    "Add ginger garlic paste and cook for 1 minute.",
+    "Add tomatoes and cook until mushy.",
+    "Add turmeric powder, salt, and pepper powder.",
+    "Mix well and add mutton pieces.",
+    "Add water and mix everything.",
+    "Pressure cook for 6-8 whistles until mutton is tender.",
+    "Open cooker and boil for 5-10 minutes until soup thickens slightly.",
+    "Adjust salt and pepper if needed.",
+    "Garnish with coriander leaves.",
+    "Serve hot."
+  ]
+}
+],
+Fish:[
+    {
+  Name: "Fish Gravy ",
+  image:"https://vismaifood.com/storage/app/uploads/public/daa/96d/7bc/thumb__1200_0_0_0_auto.jpg",
+  Time: "30-35 mins",
+  "ingredients": [
+    "500 g Fish",
+    "2 Onions (sliced)",
+    "2 Tomatoes (chopped)",
+    "1 tbsp Ginger Garlic Paste",
+    "1/2 tsp Turmeric Powder",
+    "1 tbsp Chilli Powder",
+    "2 tbsp Coriander Powder",
+    "1 tsp Tamarind Paste",
+    "Few Curry Leaves",
+    "3 tbsp Oil",
+    "Salt as needed",
+    "1.5 cups Water",
+    "Coriander Leaves for garnish"
+  ],
+  "steps": [
+    "Clean the fish and marinate with turmeric and salt for 10 minutes.",
+    "Heat oil in a pan.",
+    "Add curry leaves and sliced onions.",
+    "Saute until onions turn soft.",
+    "Add ginger garlic paste and cook for 1 minute.",
+    "Add tomatoes and cook until mushy.",
+    "Add chilli powder, coriander powder, turmeric powder, and salt.",
+    "Mix well and cook for 2 minutes.",
+    "Add tamarind water and bring to boil.",
+    "Gently add fish pieces and cook on medium flame.",
+    "Cook for 10-12 minutes until fish is done.",
+    "Simmer until gravy thickens.",
+    "Garnish with coriander leaves.",
+    "Serve hot with rice."
+  ]
+},
+
+{
+name:"Fish Fry",
+image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNa4aTEJEaqxuJLuxwGu3tfxMKDzss6MzCtlJnwekxofO1MHI8C-h0_-R4&s=10",
+time:"30 mins",
+ingredients: [
+  "500 g fish (cleaned and cut pieces)",
+  "1 tbsp ginger-garlic paste",
+  "1 tsp red chili powder",
+  "½ tsp turmeric powder",
+  "1 tsp coriander powder",
+  "½ tsp garam masala",
+  "Salt to taste",
+  "2 tbsp oil",
+  "Curry leaves"
+],
+steps: [
+  "Wash and clean the fish pieces.",
+  "Mix ginger-garlic paste, chili powder, turmeric, coriander powder, garam masala, and salt.",
+  "Coat the fish with the masala and marinate for 20 minutes.",
+  "Heat oil in a pan.",
+  "Add curry leaves.",
+  "Place the fish pieces carefully in the pan.",
+  "Shallow fry on medium flame until golden and cooked.",
+  "Flip and cook the other side.",
+  "Serve hot."
+]
+},
+]
+
 
 };
 
