@@ -320,22 +320,316 @@ steps:[
 },
 
 {
-name:"Lemon Rice",
-image:"https://static.toiimg.com/thumb/53870704.cms?width=1200&height=900",
+name:"Chicken Biryani",
+image:"https://www.ruchiskitchen.com/wp-content/uploads/2020/09/Chicken-Biryani-Recipe-01-1.jpg",
 time:"15 mins",
 ingredients:[
-"Rice",
-"Tomato",
-"Onion",
-"Spices"
+"500 g chicken",
+"2 cups basmati rice",
+"2 onions, thinly sliced",
+"2 tomatoes, chopped",
+"2 green chilies, slit",
+"1 tbsp ginger-garlic paste",
+"½ cup curd (yogurt)",
+"1 tsp red chili powder",
+"½ tsp turmeric powder",
+"1 tsp garam masala",
+"1 bay leaf",
+"1 cinnamon stick",
+"2 cloves",
+"2 cardamoms",
+"Mint leaves and coriander leaves",
+"4 cups water",
+"3 tbsp oil or ghee",
+"Salt to taste"
 ],
 steps:[
-"Cook rice",
-"Prepare tomato masala",
-"Mix rice",
+"Wash and soak the basmati rice for 20 minutes",
+"Heat oil or ghee in a pressure cooker or pot",
+"Add bay leaf, cinnamon, cloves, and cardamoms. Sauté for a few seconds",
+"Add sliced onions and fry until golden brown",
+"Add ginger-garlic paste and green chilies. Sauté for 1 minute",
+"Add tomatoes and cook until soft",
+"Add turmeric powder, chili powder, garam masala, and salt",
+"Add curd, mint leaves, and coriander leaves. Mix well",
+"Add the chicken and cook for 5–7 minutes",
+"Pour in water and bring it to a boil",
+"Add the soaked rice and mix gently",
+"Cook until done",
+"Pressure Cooker: 1 whistle on medium flame",
+"Pot Method: Cover and cook for 15–20 minutes on low flame",
+"Let it rest for 5 minutes",
+"Fluff the rice gently and serve hot",
+]
+},
+
+{
+name:"Chicken 65",
+image:"https://i0.wp.com/www.sharmiskitchen.com/wp-content/uploads/2017/07/chicken-65.jpg?fit=1194%2C1791&ssl=1",
+time:"20 mins",
+ingredients:[
+"500 g boneless chicken",
+"1 tbsp ginger-garlic paste",
+"1 tsp red chili powder",
+"½ tsp turmeric powder",
+"1 tsp garam masala",
+"2 tbsp corn flour",
+"2 tbsp rice flour",
+"1 egg (optional)",
+"Salt to taste",
+"Oil for frying"
+],
+steps:[
+"Wash and clean the chicken pieces",
+"Add ginger-garlic paste, chili powder, turmeric, garam masala, corn flour, rice flour, egg, and salt",
+"Mix well and marinate for 30 minutes",
+"Heat oil in a pan",
+"Fry the chicken pieces on medium flame until golden brown and crispy",
+"Remove and drain excess oil"
+]
+},
+
+{
+name:"Chicken Noodles",
+image:"https://i0.wp.com/mariasmenu.com/wp-content/uploads/Curried-Chicken-Noodles.png?fit=650%2C836&ssl=1",
+time:"25 mins",
+ingredients:[
+"200 g noodles",
+"250 g boneless chicken, cut into small pieces",
+"1 onion, sliced",
+"1 carrot, thinly sliced",
+"½ cup cabbage, shredded",
+"1 capsicum, sliced",
+"1 tbsp ginger-garlic paste",
+"2 tbsp soy sauce",
+"1 tbsp tomato ketchup",
+"1 tsp pepper powder",
+"2 tbsp oil",
+"Salt to taste",
+"Spring onions (optional)"
+],
+steps:[
+"Boil the noodles according to the package instructions. Drain and keep aside",
+"Heat oil in a pan or wok",
+"Add ginger-garlic paste and sauté for 30 seconds",
+"Add chicken pieces and cook for 5–7 minutes until done",
+"Add onion, carrot, cabbage, and capsicum. Stir-fry for 2–3 minutes",
+"Add soy sauce, tomato ketchup, pepper powder, and salt",
+"Add the cooked noodles and toss well",
+"Stir-fry for another 2–3 minutes",
+"Garnish with spring onions and serve hot"
+]
+},
+
+{
+name:"Chicken Fried Rice",
+image:"https://www.licious.in/blog/wp-content/uploads/2022/12/Shutterstock_1043177881.jpg",
+time:"25 mins",
+ingredients:[
+"2 cups cooked rice (preferably cooled)",
+"250 g boneless chicken, diced",
+"1 onion, finely chopped",
+"1 carrot, finely chopped",
+"½ cup cabbage, shredded",
+"1 capsicum, finely chopped",
+"1 tbsp ginger-garlic paste",
+"2 tbsp soy sauce",
+"1 tsp pepper powder",
+"2 tbsp oil",
+"Salt to taste",
+"Spring onions for garnish (optional)"
+],
+steps:[
+"Heat 1 tbsp oil in a pan or wok",
+"Add the chicken pieces and cook until fully done. Remove and keep aside",
+"Add the remaining oil to the pan",
+"Add ginger-garlic paste and sauté for 30 seconds",
+"Add onion, carrot, cabbage, and capsicum. Stir-fry on high flame for 2–3 minutes",
+"Add the cooked chicken back to the pan",
+"Add soy sauce, pepper powder, and salt. Mix well",
+"Add the cooked rice and toss gently until everything is combined",
+"Stir-fry for another 2–3 minutes",
+"Garnish with spring onions and serve hot"
+]
+},
+
+{
+name:"Chilli Chicken",
+image:"https://images.slurrp.com/prod/recipe_images/transcribe/side%20dish/Chilli_Chicken.webp?impolicy=slurrp-20210601&width=1200&height=900&q=75",
+time:"30 mins",
+ingredients:[
+"For marination",
+"250 g boneless chicken",
+"1 tbsp corn flour",
+"1 tbsp maida (all-purpose flour)",
+"½ tsp pepper powder",
+"Salt to taste",
+"For Sauce",
+"1 onion, cubed",
+"1 capsicum, cubed",
+"2 green chilies, slit",
+"1 tbsp ginger-garlic paste",
+"2 tbsp soy sauce",
+"1 tbsp tomato ketchup",
+"1 tsp chili sauce (optional)",
+"2 tbsp oil"
+],
+steps:[
+"Mix chicken with corn flour, maida, pepper powder, and salt",
+"Fry the chicken pieces until golden brown. Keep aside",
+"Heat oil in a pan",
+"Add ginger-garlic paste and sauté for 30 seconds",
+"Add onion, capsicum, and green chilies. Stir-fry for 2 minutes",
+"Add soy sauce, tomato ketchup, and chili sauce",
+"Mix well and cook for 1 minute",
+"Add the fried chicken and toss until coated with the sauce",
 "Serve hot"
 ]
-}
+},
+
+{
+name:"Chicken Tikka",
+image:"https://www.indianhealthyrecipes.com/wp-content/uploads/2022/06/chicken-tikka-kebab.jpg",
+time:"20 mins",
+ingredients:[
+"500 g boneless chicken, cut into cubes",
+"½ cup curd (yogurt)",
+"1 tbsp ginger-garlic paste",
+"1 tsp red chili powder",
+"½ tsp turmeric powder",
+"1 tsp garam masala",
+"1 tsp lemon juice",
+"1 tbsp oil",
+"Salt to taste"
+],
+steps:[
+"In a bowl, mix curd, ginger-garlic paste, chili powder, turmeric powder, garam masala, lemon juice, oil, and salt",
+"Add the chicken pieces and coat them well",
+"Marinate for at least 1 hour (or overnight for better flavor)",
+"Thread the chicken pieces onto skewers (optional)",
+"Grill, bake, air-fry, or cook on a pan until the chicken is fully cooked and slightly charred",
+"Turn occasionally for even cooking",
+"Serve hot"
+]
+},
+
+{
+name:"Chicken Soup",
+image:"https://www.myspicykitchen.net/wp-content/uploads/2022/10/Chicken-Clear-Soup-SQ.jpg",
+time:"35 mins",
+ingredients:[
+"250 g chicken (with or without bone)",
+"1 small onion, chopped",
+"2 garlic cloves, minced",
+"1 small carrot, chopped",
+"4 cups water",
+"½ tsp pepper powder",
+"Salt to taste",
+"1 tsp butter or oil",
+"Coriander leaves for garnish"
+],
+steps:[
+"Heat butter or oil in a pot",
+"Add onion and garlic. Sauté for 2 minutes",
+"Add carrot and chicken pieces. Cook for 3–4 minutes",
+"Pour in water and bring it to a boil",
+"Cover and simmer for 20–25 minutes until the chicken is tender",
+"Remove the chicken, shred it, and add it back to the soup",
+"Add pepper powder and salt",
+"Simmer for another 5 minutes",
+"Garnish with coriander leaves and serve hot"
+]
+},
+
+{
+name:"Marry Me Chicken",
+image:"https://www.tamingtwins.com/wp-content/uploads/2023/02/image-56.jpeg",
+time:"30 mins",
+ingredients:[
+"2 chicken breasts (or 500 g chicken)",
+"Salt and pepper to taste",
+"2 tbsp butter",
+"3 cloves garlic, minced",
+"1 cup fresh cream",
+"½ cup chicken broth (or water)",
+"¼ cup grated Parmesan cheese (optional)",
+"1 tsp chili flakes",
+"1 tsp mixed herbs (or oregano)",
+"Coriander or parsley for garnish"
+
+],
+steps:[
+"Season the chicken with salt and pepper",
+"Heat butter in a pan and cook the chicken until golden on both sides",
+"Remove the chicken and keep aside",
+"In the same pan, sauté the garlic for 30 seconds",
+"Add cream, chicken broth, Parmesan cheese, chili flakes, and herbs",
+"Stir well and let the sauce simmer for 2–3 minutes",
+"Add the chicken back to the pan",
+"Cook for 8–10 minutes until the chicken is fully cooked and coated in the creamy sauce",
+"Garnish with coriander or parsley and serve hot"
+]
+},
+
+{
+name:"Chicken Lollipop ",
+image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSph3A3lksM3L95e0ULiR3S4ixkEp90BlRxmQVwkmFM4HcQZAfA4GE2lcQ&s=10",
+time:"1 hour",
+ingredients:[
+"8 chicken lollipops",
+"1 tbsp ginger-garlic paste",
+"1 tsp red chili powder",
+"½ tsp pepper powder",
+"1 tbsp soy sauce",
+"2 tbsp corn flour",
+"2 tbsp maida (all-purpose flour)",
+"Salt to taste",
+"Oil for deep frying"
+],
+steps:[
+"Wash and clean the chicken lollipops",
+"In a bowl, mix ginger-garlic paste, chili powder, pepper powder, soy sauce, corn flour, maida, and salt",
+"Add the chicken lollipops and coat them well",
+"Marinate for 30 minutes",
+"Heat oil in a deep pan",
+"Fry the chicken lollipops on medium flame until golden brown and crispy",
+"Remove and drain excess oil",
+"Serve hot with your favorite dip",
+"Optional Sauce Coating 🌶️",
+"Heat 1 tsp oil in a pan",
+"Add 1 tbsp garlic (chopped)",
+"Add 1 tbsp tomato ketchup and 1 tsp chili sauce",
+"Toss the fried chicken lollipops in the sauce for 1–2 minutes"
+]
+},
+
+{
+name:"Chicken Popcorn",
+image:"https://www.licious.in/blog/wp-content/uploads/2020/12/Popcorn-Chicken.jpg",
+time:"55 mins",
+ingredients:[
+"250 g boneless chicken, cut into small cubes",
+"1 tbsp ginger-garlic paste",
+"1 tsp red chili powder",
+"½ tsp pepper powder",
+"Salt to taste",
+"2 tbsp corn flour",
+"2 tbsp maida (all-purpose flour)",
+"1 egg (optional)",
+"Oil for frying"
+],
+steps:[
+"Wash and clean the chicken pieces",
+"Add ginger-garlic paste, chili powder, pepper powder, and salt",
+"Mix in corn flour, maida, and egg",
+"Coat the chicken pieces well",
+"Marinate for 20–30 minutes",
+"Heat oil in a pan",
+"Fry the chicken pieces in batches until golden brown and crispy",
+"Remove and drain excess oil on a tissue paper",
+"Serve hot"
+]
+},
 
 ],
 
@@ -407,7 +701,69 @@ steps:[
 "Spread jam over the butter",
 "Close the bun and serve"
 ]
+},
+
+{
+name:"Butter Corn",
+image:"https://www.courtneyssweets.com/wp-content/uploads/2025/11/buttered-corn-7.jpg",
+time:"5 mins",
+ingredients:[
+"1 cup boiled sweet corn",
+"1 tbsp butter",
+"Salt and pepper"
+],
+
+steps:[
+"Mix hot corn with butter, salt, and pepper"
+]
+},
+
+{
+name:"Butter Rice",
+image:"https://www.chefnotrequired.com/wp-content/uploads/2023/07/butter-rice-blog-hero.jpg",
+time:"10 mins",
+ingredients:[
+"2 cups cooked rice",
+"2 tbsp butter",
+"2 garlic cloves, finely chopped (optional)",
+"¼ tsp pepper powder",
+"Salt to taste",
+"1 tbsp coriander leaves (optional)"
+],
+
+steps:[
+"Heat butter in a pan",
+"Add chopped garlic and sauté for 30 seconds until fragrant",
+"Add the cooked rice and mix well",
+"Add salt and pepper powder",
+"Stir gently for 2–3 minutes",
+"Garnish with coriander leaves and serve hot"
+]
+},
+
+
+{
+name:"Garlic Butter Bread",
+image:"https://sallysbakingaddiction.com/wp-content/uploads/2025/01/easy-homemade-garlic-bread.jpg",
+time:"10 mins",
+ingredients:[
+"4 bread slices",
+"2 tbsp butter (softened)",
+"3 garlic cloves, finely minced",
+"1 tbsp coriander leaves, chopped",
+"A pinch of salt"
+],
+
+steps:[
+"Mix butter, minced garlic, coriander leaves, and salt in a bowl",
+"Spread the garlic butter mixture evenly on the bread slices",
+"Heat a pan on low flame",
+"Place the bread slices on the pan with the buttered side facing up",
+"Cover and cook for 2–3 minutes until the bread becomes crispy",
+"Serve hot"
+]
 }
+
 
 ]
 
