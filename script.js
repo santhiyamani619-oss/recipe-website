@@ -1198,7 +1198,7 @@ ingredients: [
   "1/2 tsp cardamom powder",
   "Chopped pistachios for garnish"
 ],
-instructions: [
+steps: [
   "Preheat the oven to 180°C.",
   "Mix flour, powdered pistachios, baking powder, and cardamom powder in a bowl.",
   "In another bowl, whisk butter and sugar until creamy.",
@@ -1214,7 +1214,7 @@ instructions: [
 ],
 
 Snack:[
-    {
+ {
 name:"Easy Potato Snack",
 image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0g-SYpMzwDu_HNY5-qVXug7J5cCarkcNIcsd2Lpzc9Icv4gcdgJRZrug&s=10",
 time:"20 mins",
@@ -1228,7 +1228,7 @@ ingredients: [
   "2 tbsp corn flour",
   "Oil for frying"
 ],
-instructions: [
+steps: [
   "Mix mashed potatoes, onion, green chili, coriander leaves, chili powder, salt, and corn flour.",
   "Make small balls or shapes.",
   "Heat oil in a pan.",
@@ -1237,6 +1237,307 @@ instructions: [
   "Serve hot with sauce."
 ]
 },
+
+{
+name:"Easy Potato Snack",
+image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0g-SYpMzwDu_HNY5-qVXug7J5cCarkcNIcsd2Lpzc9Icv4gcdgJRZrug&s=10",
+time:"20 mins",
+ingredients: [
+  "2 potatoes (boiled and mashed)",
+  "1 onion (finely chopped)",
+  "1 green chili (chopped)",
+  "2 tbsp coriander leaves",
+  "1/2 tsp chili powder",
+  "Salt to taste",
+  "2 tbsp corn flour",
+  "Oil for frying"
+],
+steps: [
+  "Mix mashed potatoes, onion, green chili, coriander leaves, chili powder, salt, and corn flour.",
+  "Make small balls or shapes.",
+  "Heat oil in a pan.",
+  "Fry the snacks until golden and crispy.",
+  "Remove and drain excess oil.",
+  "Serve hot with sauce."
+]
+},
+
+{
+name:"Onion Pakoda",
+image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDvvJbowTkwICarORvqBhxgvMpx1uNQUbKF6KD4PJQ-PZry-vmA7EdAIw&s=10",
+time:"20 mins",
+ingredients: [
+"2 onions (thinly sliced)",
+"1 cup gram flour (besan)",
+"2 tbsp rice flour (for crispiness)",
+"2 green chilies (chopped)",
+"A few curry leaves",
+"Salt (as needed)",
+"1 tsp chili powder",
+"A pinch of asafoetida (hing)",
+"Oil (for frying)",
+],
+instructions: [
+ "Slice the onions thinly",
+"Add salt and mix the onions, keep it for 5 minutes (it will release water)",
+"Add gram flour, rice flour, chili powder, green chilies, and curry leaves",
+"Mix well and make a thick mixture (don’t add extra water if possible)",
+"Heat oil in a pan",
+"Drop small portions into hot oil and fry",
+"Cook until golden brown and crispy"
+]
+},
+
+{
+name:"Jam Sandwich",
+image:"https://www.oetker.in/assets/recipes/assets/d65e637c02454051b6d7c11d05fd5a9d/750x400/grilled-peanut-butter-and-jam-sandwich.jpg",
+time:"5 mins",
+ingredients: [
+  "Bread",
+  "jam",
+  
+],
+steps: [
+"Apply jam on bread",
+"Close and cut into shapes"
+]
+},
+],
+
+Cake:[
+
+{
+name:"Simple Chocolate Cake",
+image:"https://www.cookingclassy.com/wp-content/uploads/2022/04/easy-chocolate-cake-2-500x500.jpg",
+time:"40 mins",
+ingredients: [
+"Maida (all-purpose flour) – 1 cup",
+"Sugar – ¾ cup",
+"Cocoa powder – 2 tbsp",
+"Baking powder – 1 tsp",
+"Baking soda – ½ tsp",
+"Milk – ¾ cup",
+"Oil – ¼ cup",
+"Vanilla essence – 1 tsp",
+"A pinch of salt"
+  
+],
+steps: [
+
+"🥣 Batter:",
+"Take a bowl and mix maida, cocoa powder, baking powder, baking soda, salt",
+"In another bowl mix sugar, milk, oil, vanilla essence",
+"Combine both and mix well until smooth batter forms",
+"🍳 Cooking (Pressure Cooker method)",
+"Preheat cooker (without whistle & rubber) for 5–10 mins",
+"Grease a cake tin with oil",
+"Pour batter into tin",
+"Place inside cooker and close lid",
+"Cook on low flame for 30–35 minutes",
+]
+},
+
+{
+name:"Eggless Vanilla Cake",
+image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQliK6acnp649hR868FQ9NNVukM0ZtinwSevuf56tDIRw8kFrshRNOPV-f6&s=10",
+time:"45 mins",
+ingredients: [
+ "Maida (all-purpose flour) – 1 cup",
+ "Sugar – ¾ cup (powdered)",
+ "Milk – ¾ cup",
+ "Oil – ¼ cup",
+ "Baking powder – 1 tsp",
+ "Baking soda – ½ tsp",
+ "Vanilla essence – 1 tsp",
+ "A pinch of salt",
+ "Vinegar or lemon juice – 1 tsp (important for softness) "
+  
+],
+steps: [
+ "🥣 Batter:",
+ "Mix maida, baking powder, baking soda, and salt in a bowl",
+ "In another bowl, mix sugar + milk + oil + vanilla essence + vinegar",
+ "Combine both mixtures slowly",
+ "Stir until smooth (no lumps)",
+ "🍳 Cooking (Oven / Cooker)",
+
+ "Oven method:",
+
+ "Preheat oven at 180°C",
+ "Bake for 30–35 minutes",
+
+ "Cooker method:",
+
+ "Preheat empty cooker (no whistle, no rubber) for 10 mins",
+ "Pour batter into greased tin",
+ "Cook on low flame for 30–35 mins"
+]
+},
+
+{
+name:"Chocolate Mug Cake",
+image:"https://www.cookingclassy.com/wp-content/uploads/2020/02/chocolate-mug-cake-33.jpg",
+time:"5 mins",
+ingredients: [
+ "Maida (all-purpose flour) – 4 tbsp",
+ "Sugar – 2 tbsp",
+ "Cocoa powder – 1 tbsp",
+ "Milk – 3 tbsp",
+ "Oil – 2 tbsp (or melted butter)",
+ "Baking powder – ¼ tsp",
+ "Vanilla essence – ½ tsp (optional)",
+ "A pinch of salt"
+  
+],
+steps: [
+"Take a microwave-safe mug",
+"Add maida, sugar, cocoa powder, baking powder, salt",
+"Mix well first (dry mix)",
+"Add milk, oil, vanilla essence",
+"Stir until smooth batter (no lumps)",
+"Microwave for 1.5 to 2 minutes",
+"Check if cooked (top should look fluffy)"
+]
+},
+
+{
+name:"Oreo Mug Cake",
+image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkxz1l8ptvmXaBMZFwyjp_fNwp0Gsi-dGEUhWz8i8VzpFiigl2ZFAXq0sD&s=10",
+time:"5 mins",
+ingredients: [
+"Oreo biscuits – 4 to 6",
+"Milk – 4 tbsp",
+"Baking powder – ¼ tsp (optional, makes it fluffier)",
+"Chocolate chips (optional)"  
+  
+],
+steps: [
+"Take a microwave-safe mug",
+"Crush the Oreo biscuits into fine powder inside the mug",
+"Add milk and mix well until it becomes a smooth batter",
+"Add baking powder (optional) and mix again",
+"Microwave for 1.5 to 2 minutes",
+"Let it cool for 1 minute"
+]
+},
+
+{
+name:"Ragi Cake",
+image:"https://www.yummytummyaarthi.com/wp-content/uploads/2023/05/ragi-cake-1.jpeg",
+time:"45 mins",
+ingredients: [
+"Ragi flour (finger millet flour) – 1 cup",
+"Wheat flour or maida – ½ cup (optional for softness)",
+"Sugar or jaggery – ¾ cup (powdered)",
+"Milk – 1 cup",
+"Oil – ¼ cup",
+"Baking powder – 1 tsp",
+"Baking soda – ½ tsp",
+"Vanilla essence – 1 tsp (optional)",
+"A pinch of salt"
+  
+],
+steps: [
+"🥣 Batter:",
+"Mix ragi flour + wheat flour + baking powder + baking soda + salt.",
+"In another bowl, mix milk + sugar/jaggery + oil + vanilla essence.",
+"Combine both mixtures slowly.",
+"Stir well until smooth batter forms (no lumps).",
+"🍳 Cooking:",
+
+"Oven method:",
+
+"Preheat at 180°C",
+"Bake for 30–35 minutes",
+
+"Cooker method:",
+
+"Preheat cooker (no whistle, no rubber) for 10 minutes",
+"Pour batter into greased tin",
+"Cook on low flame for 30–35 minutes",
+]
+},
+
+],
+Biscuits:[
+{
+name:"Butter Biscuits",
+image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlz14FgBskVk6g-4Px7vqR4dV3woj8qxcev4b8ZrGt0iZuDYLdKekNkKM&s=10",
+time:"35 mins",
+ingredients: [
+"Maida – 1 cup",
+"Sugar – ½ cup (powdered)",
+"Butter – ½ cup (soft)",
+"Baking powder – ½ tsp",
+"Milk – 2–3 tbsp",
+"Vanilla essence – ½ tsp (optional) "
+  
+],
+steps: [
+"Mix butter + sugar until creamy.",
+"Add maida + baking powder and mix.",
+"Add milk little by little to make soft dough.",
+"Make small biscuit shapes.",
+"Bake at 180°C for 15–20 minutes (or cooker method)."
+]
+},
+
+{
+name:"Coconut Biscuits",
+image:"https://sangamsweets.in/cdn/shop/files/Coconut_Biscuits_New.webp?v=1745231315",
+time:"45 mins",
+ingredients: [
+"Maida – 1 cup",
+"Grated coconut – ½ cup",
+"Sugar – ½ cup",
+"Butter – ¼ cup"
+  
+],
+steps: [
+"Mix all ingredients into dough.",
+"Shape into small cookies.",
+"Bake until light golden.",
+]
+},
+
+{
+name:"Chocolate Biscuits",
+image:"https://images.immediate.co.uk/production/volatile/sites/30/2020/08/easy_choc_biscuits-59ca9be.jpg",
+time:"35 mins",
+ingredients: [
+"Maida (all-purpose flour) – 1 cup",
+"Cocoa powder – 2 tbsp",
+"Sugar – ½ cup (powdered)",
+"Butter – ½ cup (soft)",
+"Baking powder – ½ tsp",
+"Milk – 2–3 tbsp",
+"Vanilla essence – ½ tsp (optional)",
+"A pinch of salt "
+  
+],
+steps: [
+"In a bowl, mix butter + sugar until creamy.",
+"Add maida, cocoa powder, baking powder, salt and mix well.",
+"Add milk little by little to form a soft dough.",
+"Make small round biscuit shapes.",
+"Place on a tray (greased or lined).",
+"🍳 Cooking:",
+
+"Oven method:",
+
+"Preheat at 180°C",
+"Bake for 15–18 minutes",
+
+"Cooker method:",
+
+"Preheat empty cooker (no whistle, no rubber) for 10 minutes",
+"Place biscuits in plate inside cooker",
+"Cook on low flame for 15–20 minutes"
+  
+]
+}
+
+
 ],
 
 Mutton:[
